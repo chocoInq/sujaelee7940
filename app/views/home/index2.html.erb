@@ -1,0 +1,61 @@
+<div id="header-bar">
+  <div id="header-bar1">
+  </div>
+  <div id="header-bar2">
+    SujaeLee's Portfoliio Website
+  </div>
+</div>
+
+<div id="left-column">
+  <div id="profile">
+    <img src="http://i58.tinypic.com/28l7714.jpg">
+    <span>Sujae Lee</span>
+  </div>
+  <ul id="menus">
+    <li><a href="/who">Who I am</a></li>
+    <li><a href="/skills">Skills</a></li>
+    <li><a href="/courses">Courses</a></li>
+    <li><a href="/contact">Contact</a></li>
+  </ul>
+</div>
+<div id="main">
+  <div id="whoiam">
+    <div class="whitecard">
+    <h1>
+      Who I am
+    </h1>
+    I am a freshman at Seoul National University majoring computer science & engineering.
+    <br>Wanna be an entrepreneur and computer programmer. 
+    </div>
+    <div class="whitecard">
+      <h1>
+        education
+      </h1>
+      I graduated from Korean Minjok Leadership Highschool at 2012.<br>
+      I'm attending Seoul National University majoring computer science & engineering as a frashman now.
+    </div>
+    <div class="whitecard">
+    <h1>
+      Interests
+    </h1>
+    These are the things I find intersting. If you feel so in any of these things, we can be good friends. :)
+    <div id="interests_wrapper">
+      <% 3.times do %>
+      <div class="interests_card">
+        <img src="http://www.myfico.com/Images/sample_overlay.gif">
+        <div class="interests_name">
+          <%=@interests[:name] %>
+        </div>
+      </div>
+      <% end %>
+      </div>
+    </div>
+
+  </div>
+  <div id="courses">
+    
+  </div>
+  <div id="contact">
+    
+  </div>
+</div>

@@ -1,0 +1,112 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,700);
+
+* {
+  margin:0px;
+  padding:0px;
+  font-family: Ubuntu;
+}
+
+a {
+  text-decoration: none;
+  color:white;
+  display:block;
+}
+ul{
+  list-style:none;
+}
+
+body{
+  background-color:#d3d3d3;
+}
+#left-column {
+  width:240px;
+  float:left;
+  height:100vh;
+  background-color:#32323e;
+  color:white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
+}
+#main{
+  float:left;
+  padding-left: 20px;
+  padding-top:20px;
+}
+
+#profile {
+  width:100px;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:50px;
+}
+#profile span{
+  font-size:20px;
+}
+#profile img{
+  border-radius:50%;
+  width:80px;
+  height:100px;
+}
+.test2{
+  width:10px;
+  height:10px;
+  background-color:red;
+  display:inline-block;
+}
+#menus {
+  margin-top:20px;
+}
+#menus li{
+  height:30px;
+  line-height:30px;
+  margin-top:10px;
+}
+#menus li a:hover{
+  background-color:white;
+  color:black;
+}
+#header-bar1
+{
+  height:15px;
+  background-color:#0097A7;
+}
+#header-bar2
+{
+  height:40px;
+  background-color:#00BCD4;
+  color:white;
+  line-height:40px;
+  padding-left:20px;
+  
+}
+#header-bar
+{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
+}
+#menus li a{
+  padding-left:10px;
+}
+.interests_card{
+  width:150px;
+  height:220px;
+  border:solid 1px black;
+  display:inline-block;
+  padding:10px;
+}
+#interests_wrapper{
+  margin-top:10px;
+}
+.interests_card img{
+  width:150px;
+  height:200px;
+  background-color:black;
+}
+.whitecard
+{
+  width:800px;
+  background-color:white;
+  padding:10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin-bottom:10px;
+  
+}
